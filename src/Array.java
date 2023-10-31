@@ -22,6 +22,8 @@ public class Array {
                 "Chahyo", "Purnomo", "Aji"
         };
 
+        namaNama [0] = null;
+
         int[] arrayInt = new int[]{
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
         };
@@ -30,5 +32,19 @@ public class Array {
                 10L, 20L, 30L
         };
 
+        arrayLong[0] = 100;
+
+        System.out.println(arrayLong[0]);
+        System.out.println(arrayLong[1]);
+        System.out.println(arrayLong.length);
+
+        String [][] members = {
+                {"chahyo", "purnomo", "aji" },
+                {"muhammad", "bima"},
+                {"maria", "owaza"}
+        };
+
+        System.out.println(members[0][1]);
+        System.out.println(members[1][0]);
     }
 }
